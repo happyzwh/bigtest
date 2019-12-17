@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSources>
+   <dataSource name="DB1">
+          <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+          <url>jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=utf-8</url>
+          <userName>root</userName>
+          <passWord>root</passWord>
+       
+          <maxPoolSize>2</maxPoolSize>
+          <minPoolSize>1</minPoolSize>
+          <initialPoolSize>1</initialPoolSize>
+          <acquireRetryDelay>60</acquireRetryDelay>
+          <maxStatements>5</maxStatements>
+          <maxStatementsPerConnection>5</maxStatementsPerConnection>
+          <maxIdleTime>1000</maxIdleTime>
+          <acquireIncrement>1</acquireIncrement>
+          <idleConnectionTestPeriod>60</idleConnectionTestPeriod>
+          <autoCommitOnClose>false</autoCommitOnClose>
+          <acquireRetryAttempts>3</acquireRetryAttempts>
+    </dataSource>
+    <dataSource name="DB2">
+          <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+          <url>jdbc:mysql://127.0.0.1:3306/oavideo?useUnicode=true&amp;characterEncoding=utf-8</url>
+          <userName>root</userName>
+          <passWord>root</passWord>
+          
+          <maxPoolSize>2</maxPoolSize>
+          <minPoolSize>1</minPoolSize>
+          <initialPoolSize>1</initialPoolSize>
+          <acquireRetryDelay>60</acquireRetryDelay>
+          <maxStatements>5</maxStatements>
+          <maxStatementsPerConnection>5</maxStatementsPerConnection>
+          <maxIdleTime>1000</maxIdleTime>
+          <acquireIncrement>1</acquireIncrement>
+          <idleConnectionTestPeriod>60</idleConnectionTestPeriod>
+          <autoCommitOnClose>false</autoCommitOnClose>
+          <acquireRetryAttempts>3</acquireRetryAttempts>
+    </dataSource>
+</dataSources>
